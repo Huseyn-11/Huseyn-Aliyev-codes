@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+    color: white;
+}
+
+body{
+    background-image: url(./travel.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#no-div{
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+div{
+    font-size: 40px;
+    margin-top: 10%;
+    margin-left: 80px;
+}
+
+p{
+    font-size: 25px;
+}
+
+button{
+    color: black;
+    font-size: 40px;
+    margin-left: 80px;
+    margin-top: 50px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border: none;
+}
+
+button:hover{
+    font-size: 50px;
+    transition: 0.4s;
+    color: red;
+}
