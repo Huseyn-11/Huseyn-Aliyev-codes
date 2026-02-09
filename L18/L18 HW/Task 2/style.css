@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Share Tech", sans-serif;
+}
+
+body{
+    background-image: url(./Bayern.png), url(./Bayern\ stadium.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 15%, 30%;
+    background-position: left top , right bottom;
+   
+}
+
+div{
+    text-align: center;
+    font-size: 25px;
+
+}
+
+#lorem5{
+    color: gray;
+}
+
+button{
+    margin-left: 42vw;
+    font-size: 30px;
+    margin-top: 60px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 40px;
+    background-color: red;
+    color: white;
+}
+
+button:hover{
+    transition: 0.4s;
+    color: black;
+    font-size: 40px;
+}
