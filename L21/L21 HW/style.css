@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+h1:hover{
+    color: blue;
+}
+
+tr{
+    text-align: center;
+}
+
+#Ronaldo{
+    width:15vw;
+}
+
+#Messi{
+    width: 15vw;
+}
+
+#Neymar{
+    width: 15vw;
+}
+
+#Jamal{
+    width: 25vw;
+}
+
+#Lamine{
+    width: 20vw;
+}
+
+#Neuer{
+        width: 25vw;
+}
+
+#Kady{
+        width: 20vw;
+}
+
+#Harry{
+    width: 20vw;
+}
+
+#Janko{
+    width: 25vw;
+}
+
+table{
+    width: 99.2vw;
+    border-collapse:  collapse;
+}
+
+tbody  td:hover{
+    background-color: aquamarine;
+}
+
+thead{
+    background-color: rgb(167, 132, 255);
+}
+
+thead td:hover{
+    background-color: red;
+    cursor: not-allowed;
+}
+
+th, td{
+    border: 2px solid color(srgb rgb(0, 0, 0) rgb(0, 0, 0) rgb(0, 0, 0));
+}
