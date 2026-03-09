@@ -1,0 +1,39 @@
+body {
+    height: 100vh;  
+}
+
+table {
+    border-collapse: collapse;
+    width: 300px;
+    margin-left: 45vw;
+}
+
+th, td {
+    border: 2px solid black;
+    padding: 15px;
+    text-align: center;
+    font-size: 22px;
+}
+
+th {
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.sum-text{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.sum{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+th, tfoot{
+    background-color: aquamarine;
+}
+
+tbody {
+    background-color: greenyellow;
+}
