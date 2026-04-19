@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: larger;
+    font-family: Outfit, sans-serif;
+    text-align: justify;
+}
+
+header{
+    background-color: rgb(37, 128, 255);
+    padding: 30px;
+}
+
+li{
+    display: inline;
+    margin-left: 11vw;
+    border: solid 2px white;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+li:hover{
+    background-color: crimson;
+}
+
+a{
+    text-decoration: none;
+}
+
+#ucl-logo{
+    width: 10vw;
+}
+
+#ucl{
+    width: 18.36vw;
+    float: left;
+}
+
+article:hover{
+    color: red;
+}
+
+#bayern{
+    margin-left: 20px;
+}
+
+#liv{
+    margin-left: 20px;
+}
+
+section{
+    background-color: greenyellow;
+}
+
