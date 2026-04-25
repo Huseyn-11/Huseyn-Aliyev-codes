@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Serif", serif;
+}
+
+body{
+    background-color: rgb(14, 21, 37);
+}
+
+#About{
+    color: white;
+}
+
+nav{
+    float: right;
+    display: inline;
+    list-style-type: none;
+    word-spacing: 30px;
+    color: white;
+    font-size: large;
+}
+
+ul{
+    display: inline;    
+    
+}
+
+h1, ul{
+    display: inline;
+}
+#div1{
+    background-color: black;
+    padding: 20px 30px;
+    padding-right: 100px;
+
+}
+
+#me{
+    color: gold;
+}
+
+#Coper{
+    color: white;
+    word-spacing: 10px;
+}
+
+p{
+    color: gold;
+    padding-bottom: 30px;
+}
+
+#div2{
+    margin: 15vw;
+}
+
+#divp{
+    color: rgb(155, 161, 174);
+    margin-top: 23px;
+}
+
+button{
+    background-color: gold;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 3px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(178, 151, 0);
+    transition: 0.4s;
+}
+
+img{
+    margin-top: -250px;
+    float: right;
+    width: 25vw;
+    border-radius: 30px;
+}
+
+ul:hover{
+    color: rgb(181, 181, 181);
+    cursor: pointer;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
